@@ -1,0 +1,22 @@
+{
+  "name": "samu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safriks/samu.git"
+  },
+  "author": "safriks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safriks/samu/issues"
+  },
+  "homepage": "https://github.com/safriks/samu#readme",
+  "dependencies": {
+    "connect-mongo": "^2.0.3"
+  }
+}

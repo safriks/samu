@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Hifa Festival",
+    "status": "visible",
+    "author": "Simba Fulukia",
+    "keywords": ["Zimbabve"],
+    "summary": "",
+    "text": "HIFA is a 6-day annual festival and workshop programme that showcases the very best of local, regional and international arts and culture in a comprehensive festival programme of theatre,dance, music, circus, street performance, fashion, spoken word and visual arts. HIFA has come to be seen as an important symbol of something positive about Zimbabwe, unifying socially and culturally disparate groups of Zimbabweans at a time of ideological conflict and political uncertainty bringing huge audiences together to celebrate something positive – the healing and constructive capacity of the arts.<br /><br /> Since its inception in 1999, the Festival has received recognition for its support of arts and culture in Zimbabwe and is seen as a major contributor to development in this area. HIFA is now the largest cultural event in Zimbabwe and among the eight major festivals in Africa. HIFA has gained local and international media praise on many fronts, for example, Robert Grieg writing in the South Africa Sunday Independent -“The Harare International Festival of the Arts is probably the best organised festival in the sub-continent and one of the most manageably diverse. More importantly in the current socio-economic situation HIFA has come to be seen as an important symbol of something positive about Zimbabwe”.",
+    "image": [
+      "https://static.wixstatic.com/media/5e8614_83d3821d60a44ae4af22b7367adae602~mv2.png"
+    ],
+    "video": [""],
+    "date": "2018-04-28"
+  },
+  {
+    "title": "Keune True Beauty 2018",
+    "status": "visible",
+    "author": "Isabelle Beernaert",
+    "keywords": ["Keune"],
+    "summary": "",
+    "text": "The True Beauty 2018 event by international styling brand Keune Haircosmetics, was held in Utrecht, Netherlands, from Saturday 14 to Monday 16 April. More than 2,000 hairstylists from 30 countries participated in this celebration of the art of hair.<br /><br />Held in the setting of the Werkspoorkathedraal, the show focused on the theme “Roots of Beauty“,  a truly inspirational journey driven by almost a century of Keune tradition. The event began with an intimate dinner on the Saturday, followed up by the show on the Saturday and an exceptionally insightful Masterlass on the Monday - three days dedicated to all things coiffure, from the extremes of Avant-Garde to street style and traditional barbering techniques.<br /><br />On stage, big names on the international arena such as Illham Mestour, George Alderete, Marriet Gakes, Roberto Tarla, Tom Chapman and James Beaumont. Special guests included the legendary duo Mazella & Palmer, who presented their collection during the course of the show",
+    "image": [
+      "./images/Blogs/5e8614_a1d86c5172f7480aad389e860ab4bc70_mv2.webp",
+      "./images/Blogs/5e8614_1eff044d4564457b8df1fc98fac92329_mv2.webp",
+      "./images/Blogs/5e8614_1746124761004183a5e4dd0ad1e7ac7d_mv2.webp",
+      "./images/Blogs/5e8614_f6ee2c0fa2e949f3b1e1babe820e6524_mv2.webp"
+    ],
+    "video": [""],
+    "date": "2018-04-17"
+  },
+  {
+    "title": "Tabula Rasa",
+    "status": "visible",
+    "author": "Isabelle Beernaert",
+    "keywords": ["Tabula Rasa"],
+    "summary": "",
+    "text": "Who does not want to start all over again and leave everything behind? Sift the past, decisions and mistakes from the table in one movement! In dance performance Tabula Rasa , choreographer and theater maker Isabelle Beernaert attempts to draw customs with great violence, to clean things up, to seek freedom and to prevent us from staying small. An ensemble of again different styles of music and pure dance, with music by Muse, Armand Amar, Max Richter and Damien Rice.",
+    "image": [
+      "./images/Blogs/tabularasa1.webp",
+      "./images/Blogs/tabularasa2.webp",
+      "./images/Blogs/tabularasa3.webp",
+      "./images/Blogs/tabularasa4.webp",
+      "./images/Blogs/tabularasa5.webp"
+    ],
+    "video": ["YxYahKjAiLw"],
+    "date": "2018-04-17"
+  }
+]
