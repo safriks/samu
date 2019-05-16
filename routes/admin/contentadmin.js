@@ -5,7 +5,7 @@ const mongoose = require("mongoose")
 
 const Content = require("../../models/Content");
 const Blogpost = require("../../models/blogpost");
-
+/*
 router.get("/", (req, res)=> {
     var objectId = mongoose.Types.ObjectId(req.query.id);
     Blogpost.find({_id: objectId}, (err, result)=> {
@@ -34,5 +34,5 @@ router.post("/", (req, res)=> {
         })
     }
 })
-
+*/
 module.exports = router;

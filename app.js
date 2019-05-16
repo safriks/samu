@@ -38,8 +38,6 @@ const photoRoute = require("./routes/photo");
 const videoRoute = require("./routes/video");
 const contactRoute = require("./routes/contact");
 
-
-app.use("/", homeRoute);
 app.use("/home", homeRoute);
 app.use("/about", aboutRoute);
 app.use("/admin",/*auth middleware*/ adminRoute);
@@ -47,6 +45,8 @@ app.use("/blog", blogRoute);
 app.use("/photo", photoRoute);
 app.use("/video", videoRoute);
 app.use("/contact", contactRoute);
+app.use("/", homeRoute); // must be added last to render "/blog_name" AND all normal routes
+
 
 //here goes auth middleware
 

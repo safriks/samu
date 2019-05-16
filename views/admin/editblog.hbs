@@ -1,10 +1,12 @@
 <p>{{blogs.title}}</p>
 
 <p>Let's EDIT a blog!</p>
-<form action="/editblog" method="post">
+
+<form action="http://localhost:3004/admin/editblog" method="post">
     <input type="hidden" name="_id" placeholder="{{blogs._id}}" value="{{blogs._id}}">
     <input type="text" name="title" placeholder="{{blogs.title}}" value="{{blogs.title}}">
-
+    <input type="text" name="path" placeholder="{{blogs.path}}" value="{{blogs.path}}">
+    <input type="text" name="choreographer" placeholder="{{blogs.choreographer}}" value="{{blogs.choreographer}}">
     <input type="text" name="keywords" placeholder="{{blogs.keywords}}" value="{{blogs.keywords}}">
     <input type="text" name="summary" placeholder="{{blogs.summary}}" value="{{blogs.summary}}">
     <input type="text" name="text" placeholder="{{blogs.text}}" value="{{blogs.text}}">

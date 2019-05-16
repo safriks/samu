@@ -2,7 +2,8 @@ const mongoose = require("mongoose");
 
 const blogpostSchema = new mongoose.Schema({
     title: {type: String},
-    author: {type: String}, // choreographer
+    path: {type: String},
+    choreographer: {type: String}, // choreographer
     status: {type: String},
     keywords: {type: Array},
     summary: {type: String},
