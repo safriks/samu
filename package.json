@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/safriks/samu#readme",
   "dependencies": {
-    "connect-mongo": "^2.0.3"
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^2.0.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "hbs": "^4.0.4",
+    "mongoose": "^5.5.8"
   }
 }

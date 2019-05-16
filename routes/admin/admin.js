@@ -13,9 +13,7 @@ router.use("/editblog",/*auth middleware*/ editblogRoute);
 router.get("/", (req, res)=> {
     Blogpost.find({}, (err,result)=>{
         if (err) console.log("i cant into blog"+err);
-        
         if (!err) res.render("admin/admin", {blogs: result});
-        
     })
 })
 
