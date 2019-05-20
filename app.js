@@ -9,7 +9,7 @@ require("dotenv").config();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser(process.env.Cookie_Parser_Secret));  /// !!!!!!!!!!!!!!change!
 
-mongoose.connect(process.env.Mongo_DB_Connenction, {useNewUrlParser: true}, (err)=> {
+mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true}, (err)=> {
     if(!err)console.log("connected to samu db")
     else console.log("ERROR:", err)
 })
