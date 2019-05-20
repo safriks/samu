@@ -24,11 +24,11 @@ router.post("/", (req, res)=> {
     if (newBlog.path!==encodeURI(newBlog.path)) res.send("<h1>oops! bad path name!</h1><p>use only url-friendly symbols, such as letters, numbers, -, and _</p><p>press back to go back</p>");
     else{
     console.log(newBlog)
-        Blogpost.create(newBlog, (err)=> {
-            debugger
-            if(err) res.send("An error has occured while creating blog post. Error message: "+err)
-            else res.redirect(`/blog`)
-        })
+    Blogpost.create(newBlog, (err)=> {
+        debugger
+        if(err) res.send("An error has occured while creating blog post. Error message: "+err)
+        else res.redirect(`/blog`)
+    })
     }
 })
 

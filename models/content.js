@@ -5,6 +5,7 @@ const contentSchema = new mongoose.Schema({
     type: {type: String},
     category: {type: String},
     keywords: {type: Array},
+    text: {type: Array},
     url: {type: String}, // /images/balet.jpg http://google.drive..... 
     date: {type: Date} // mongoose timestamps...
 })
