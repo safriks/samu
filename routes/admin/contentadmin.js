@@ -5,15 +5,14 @@ const mongoose = require("mongoose")
 
 const Content = require("../../models/Content");
 const Blogpost = require("../../models/blogpost");
-/*
-router.get("/", (req, res)=> {
-    var objectId = mongoose.Types.ObjectId(req.query.id);
-    Blogpost.find({_id: objectId}, (err, result)=> {
-        //console.log('resulttitle', result[0].title)
-        res.render("admin/editblog", {blogs: result[0]})
+
+router.get("/content", (req, res)=> {
+    var objectCategory = req.query.cat;
+    Content.find({category: objectCategory}, (err, result)=> {
+        res.render("admin/content", {content: result})
     })
 })
-
+/*
 router.post("/", (req, res)=> {
     let updatedBlog = {
         title: req.body.title,

@@ -4,11 +4,12 @@ const mongoose = require("mongoose")
 const hbs = require('hbs');
 var bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser')
+require("dotenv").config();
 
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser("super secret"));  /// !!!!!!!!!!!!!!change!
+app.use(cookieParser(process.env.Cookie_Parser_Secret));  /// !!!!!!!!!!!!!!change!
 
-mongoose.connect('mongodb://localhost/samu', {useNewUrlParser: true}, (err)=> {
+mongoose.connect(process.env.Mongo_DB_Connenction, {useNewUrlParser: true}, (err)=> {
     if(!err)console.log("connected to samu db")
     else console.log("ERROR:", err)
 })
@@ -17,7 +18,7 @@ const session    = require("express-session");
 const MongoStore = require("connect-mongo")(session);
 
 app.use(session({
-    secret: "some-fancy-auth-secret",
+    secret: process.env.Session_Secret,
     cookie: { maxAge: 3600000 },
     store: new MongoStore({
       mongooseConnection: mongoose.connection,
@@ -50,7 +51,7 @@ app.use("/", homeRoute); // must be added last to render "/blog_name" AND all no
 
 //here goes auth middleware
 
-const port = 3004;
+const port = process.env.PORT;
 app.listen(port, ()=> {
     console.log(`samu live! listeneing on port ${port}.....`)
 })
